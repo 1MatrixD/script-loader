@@ -1,0 +1,14 @@
+{
+    "files": {
+        "www.youtube.com": [
+            "index.js"
+        ],
+        "www.twitch.tv": [
+            "index.js"
+        ]
+    },
+
+    "dict": {
+        "brainjs": "https://unpkg.com/brain.js"
+    }
+}

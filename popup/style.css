@@ -1,0 +1,29 @@
+body {
+    background: #353535;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    font-family: cursive;
+    overflow: auto;
+}
+
+::selection {
+    color: black;
+    background: lime;
+}
+
+::-webkit-input-placeholder {
+    color: #d0d0d0;
+}
+
+.reload {
+    margin-top: -12.5px;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.reload:hover {
+    color: #97ff47;
+}

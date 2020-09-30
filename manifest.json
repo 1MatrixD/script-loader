@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "Matrix Extension",
+    "version": "1.0",
+    "description": "Created with pain",
+    "permissions": [
+        "cookies",
+        "tabs",
+        "<all_urls>",
+        "browsingData",
+        "webRequest",
+        "webRequestBlocking",
+        "unlimitedStorage",
+        "storage"
+    ],
+    "browser_action": {
+        "default_icon": "icons/default.png",
+        "default_popup": "popup/index.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [ "*://*/*" ],
+            "js": [ "app.js" ],
+            "run_at": "document_start"
+        }
+    ],
+    "web_accessible_resources": ["*"],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'"
+}

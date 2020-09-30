@@ -1,0 +1,5 @@
+# My scripts
+scripts/*/*
+
+# Hiding config json file
+# config.json
