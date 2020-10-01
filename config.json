@@ -3,7 +3,13 @@
         "www.youtube.com": [
             "index.js"
         ],
+
         "www.twitch.tv": [
+            "index.js"
+        ],
+
+        "www.hltv.org": [
+            "style.css",
             "index.js"
         ]
     },

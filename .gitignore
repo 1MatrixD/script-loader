@@ -2,4 +2,4 @@
 scripts/*/*
 
 # Hiding config json file
-# config.json
+config.json

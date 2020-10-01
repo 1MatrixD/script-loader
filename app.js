@@ -24,7 +24,7 @@ const getFileTypeByFileName = ({ fileName }) => {
 const appendScript = ({ fileName, data, type = getFileTypeByFileName({ fileName }) }) => {
     let el = document.createElement(type);
         el.innerHTML = data;
-    document.body.appendChild(el);
+    document.head.appendChild(el);
 }
 
 !(async function() {
